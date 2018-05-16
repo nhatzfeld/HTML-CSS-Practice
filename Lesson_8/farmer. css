@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #adb195 url("./images/green_background.jpg") top left repeat;
+  color: #75480a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Layout */
+
+#logo {
+  display: block;
+  width: 200px;
+  margin: 40px auto;
+}
+
+#container {
+  width: 760px;
+  margin: 0 auto;
+  padding: 40px;
+  background: url("./images/yellow_background.jpg") top left repeat;
+}
+/* This snippet is taken from the floats-101 article, it took a broken float and made a beautiful website */
+#container:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#main-content {
+  width: 500px;
+  float: left;
+}
+
+#sidebar {
+  background: url("./images/texture_background.jpg") top left repeat;
+  width: 240px;
+  float: left;
+  padding: 20px 20px 0;
+}

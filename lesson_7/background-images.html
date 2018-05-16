@@ -7,10 +7,45 @@
 
     <style type='text/css'>
     </style>
+    <a href='index.html' rel='home'>Home</a>
 </head>
 
 <body>
 
+    <h1>Background Images, Folks!</h1>
+    <p>Properties There are a few different background properties:</p>
+    <div id='box-1' class='border-box'>
+        background-image This property is the location of the image itself, for example: h1 { background-image: url('http://website.com/img/background.jpg');
+        } or h1 { background-image: url('images/background.jpg'); }
+    </div>
+    <div id='box-1' class='border-box'></div>
+    background-color This allows us to add colour to a background. An example in CSS would like like this: h1 { background-color:
+    green; }
+
+    <div id='box-1' class='border-box'></div>
+    <h2>background-repeat </h2>
+    <p>This is how the image will repeat. The value can be any of the following:</p>
+
+    <h3>background-repeat: repeat;</h3>
+    <p>This repeats on both the X and Y axis, and will essentially tile the image across the entire background.</p>
+    <h3>background-repeat: repeat-x;</h3>
+    <p>This repeats the background on the X axis, or horizontally.</p>
+    <h3>background-repeat: repeat-y;</h3>
+    <p>This repeats the background on the Y axis, or vertically.</P>
+    <h3>background-repeat: no-repeat;</h3>
+    <p>This shows the image only once, without repeating.</p>
+    <h2>background-position</h2>
+    <P> This is the actual position of the background image within it's container. The values can be: background-position: top;
+        background-position: right; background-position: bottom; background-position: left; background-position: center;
+        It can also be a percentage, length, o r combination, like so: background-position: bottom left;</p>
+
+
+    <h2>Shorthand!</h2>
+    <p>There's a quick way around background images, and you don't necessarily have to type out all of the above code to set
+        up your background images the way you want them.</p>
+    background The "background" shorthand can handle them all in one! background: green url('images/background.jpg') top left
+    no-repeat; Examples Background Image, repeated Background Colour Background Image, positioned, no repeating Background
+    Image, positioned, repeating on X axis
 </body>
 
 </html>
